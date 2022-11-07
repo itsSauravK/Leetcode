@@ -53,6 +53,7 @@ public class BoundaryOfBinaryTree {
         result.add(root.val);
     }
 
+    List<Integer> arr = new ArrayList<>();
 
 }
 
@@ -80,9 +81,6 @@ public class BoundaryOfBinaryTree {
 /*
 -First find the left boundary, then all the leaves, then the right boundary/
 -Make sure you do not add duplicate element as in case of [1], while adding leaf nodes
- */
-
-*/
  */
 
 
